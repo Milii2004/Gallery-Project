@@ -1,0 +1,56 @@
+.picture {
+    /*
+    Lay the picture containers out one after the other. (To see why
+    this line is important, try changing it to 'block' or 'inline'.)
+    */
+    display: inline-block;
+
+    /* add a little space between each picture and the next */
+    margin: 10px;
+}
+
+.gallery img {
+    /*
+    The original images are all different sizes but we need
+    them to be consistent for the gallery layout to look good.
+    */
+    height: 200px;
+
+    /* add an outline around each picture */
+    border: 7px groove #95938F;
+    margin: 10px;
+}
+
+.gallery p {
+    text-align: center;
+    margin-top: 0;
+}
+body{
+    text-align:center;
+    background:url(https://st.depositphotos.com/1735158/3373/i/600/depositphotos_33735707-stock-photo-soft-abstract-pink-background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color:#716F6A;
+}
+
+h1{
+    font-family: fantasy;
+    font-size: 50px;
+}
+
+.add{
+	font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 15px;
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    border: solid white;
+  	box-shadow: 0 5px lightgrey;
+    background-color: grey; /* aqua */
+    color: white;
+}
+
+.add:active {
+  transform: translateY(6px);
+}
